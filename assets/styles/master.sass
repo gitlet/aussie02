@@ -1,0 +1,150 @@
+// importing bourbon
+@import "bourbon/bourbon"
+// initial reset
+*
+  margin: auto
+  padding: 0
+body
+  font-family: 'Nunito', sans-serif
+  header
+    position: absolute
+    top: 10px
+    left: 10px
+    background: #2876b3
+    margin: 0
+    padding-top: 5px
+    cursor: pointer
+    border-radius: 100%
+    height: 42px
+    width: 46px
+    div
+      background: ghostwhite
+      height: 2px
+      width: 24px
+      margin: 2px
+      /* text-align: center; */
+      position: relative
+      top: 9px
+      left: 9px
+      border-radius: 4px
+
+    // h1
+    //   color: ghostwhite
+    // .menu-list
+    //   list-style-type: none
+    //   li
+    //     display: block
+    //     margin: 10px
+    //     padding: 10px
+    //     letter-spacing: 4px
+    //     font-size: 22px
+    //     a
+    //       text-decoration: none
+    //       color: whitesmoke
+  .banner
+    position: relative
+    top: 60px
+    left: 20px
+    // border: 1px solid cornflowerblue
+    text-align: center
+    @include size(85% auto)
+    h1
+      color: #2876b3
+    .social
+      list-style-type: none
+      li
+        display: inline-block
+        margin: 5px
+        padding: 5px
+        a
+          text-decoration: none
+          color: #2876b3
+  .jumbotron
+    position: relative
+    @include size(85% 340px)
+    background-image: url('../img/header.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    border-radius: 4px
+    top: 62px
+    left: 20px
+  .content
+    position: relative
+    top: 60px
+    left: 20px
+    @include size(85% auto)
+    margin: 5px auto
+    border: 1px solid #999
+    border-radius: 4px
+    h2
+      color: #fff
+      background: #2876b3
+      text-align: center
+      margin: 5px
+      padding: 40px 5px
+      border-radius: 4px
+    p
+      text-align: center
+      padding: 10px
+      @include size(auto 120px)
+      overflow: scroll
+
+  .menu
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    background: cornflowerblue
+    display: inline-block
+    margin: 0
+    padding: 40px 20px 20px
+    display: none
+    .menu-list
+      list-style-type: none
+      // text-align: right
+      li
+        display: block
+        font-size: 28px
+        a
+          text-decoration: none
+          color: ghostwhite
+    #closer
+      position: absolute
+      top: 250px
+      left: 0
+      right: 0
+      text-align: center
+      font-size: 36px
+      background: rgba(59, 99, 115, 0.58)
+      margin: 0
+      padding: 10px
+      // display: none
+      a
+        text-decoration: none
+        color: #fff
+        border: 3px solid #fff
+        border-radius: 100%
+        margin: 0
+        padding: 0 12px
+
+  footer
+    position: relative
+    background: rgba(185, 185, 185, 0.29)
+    border-radius: 4px 4px 0 0
+    @include size(85% auto)
+    text-align: center
+    margin: 5px auto
+    padding: 10px 0
+    top: 60px
+    left: 20px
+
+// ----------------- MEDIA QUERIES -------------------------
+
+
+// @media only screen and (max-width: 540px)
+//   body
+//     footer
+//       position: relative
+//       background: tint(grey, 45%)
+//       @include size(100% auto)

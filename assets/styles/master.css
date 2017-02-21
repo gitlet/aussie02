@@ -1,0 +1,126 @@
+* {
+  margin: auto;
+  padding: 0; }
+
+body {
+  font-family: "Nunito", sans-serif; }
+  body header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #2876b3;
+    margin: 0;
+    padding-top: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+    height: 42px;
+    width: 46px; }
+    body header div {
+      background: ghostwhite;
+      height: 2px;
+      width: 24px;
+      margin: 2px;
+      /* text-align: center; */
+      position: relative;
+      top: 9px;
+      left: 9px;
+      border-radius: 4px; }
+  body .banner {
+    position: relative;
+    top: 60px;
+    left: 20px;
+    text-align: center;
+    height: auto;
+    width: 85%; }
+    body .banner h1 {
+      color: #2876b3; }
+    body .banner .social {
+      list-style-type: none; }
+      body .banner .social li {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px; }
+        body .banner .social li a {
+          text-decoration: none;
+          color: #2876b3; }
+  body .jumbotron {
+    position: relative;
+    height: 340px;
+    width: 85%;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    top: 62px;
+    left: 20px; }
+  body .content {
+    position: relative;
+    top: 60px;
+    left: 20px;
+    height: auto;
+    width: 85%;
+    margin: 5px auto;
+    border: 1px solid #999;
+    border-radius: 4px; }
+    body .content h2 {
+      color: #fff;
+      background: #2876b3;
+      text-align: center;
+      margin: 5px;
+      padding: 40px 5px;
+      border-radius: 4px; }
+    body .content p {
+      text-align: center;
+      padding: 10px;
+      height: 120px;
+      width: auto;
+      overflow: scroll; }
+  body .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: cornflowerblue;
+    display: inline-block;
+    margin: 0;
+    padding: 40px 20px 20px;
+    display: none; }
+    body .menu .menu-list {
+      list-style-type: none; }
+      body .menu .menu-list li {
+        display: block;
+        font-size: 28px; }
+        body .menu .menu-list li a {
+          text-decoration: none;
+          color: ghostwhite; }
+    body .menu #closer {
+      position: absolute;
+      top: 250px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 36px;
+      background: rgba(59, 99, 115, 0.58);
+      margin: 0;
+      padding: 10px; }
+      body .menu #closer a {
+        text-decoration: none;
+        color: #fff;
+        border: 3px solid #fff;
+        border-radius: 100%;
+        margin: 0;
+        padding: 0 12px; }
+  body footer {
+    position: relative;
+    background: rgba(185, 185, 185, 0.29);
+    border-radius: 4px 4px 0 0;
+    height: auto;
+    width: 85%;
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px 0;
+    top: 60px;
+    left: 20px; }
+
+/*# sourceMappingURL=master.css.map */
