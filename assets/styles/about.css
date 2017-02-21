@@ -1,0 +1,38 @@
+* {
+  margin: auto;
+  padding: 0; }
+
+body {
+  font-family: "Nunito", sans-serif; }
+  body header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 15px; }
+    body header h1 {
+      color: cornflowerblue;
+      border-bottom: 2px solid cornflowerblue;
+      width: 44px; }
+    body header a {
+      text-decoration: none;
+      color: ghostwhite; }
+      body header a span#back-btn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: cornflowerblue;
+        padding: 20px;
+        font-size: 22px;
+        font-weight: bold; }
+  body .container {
+    position: relative;
+    top: 78px;
+    background: rgba(228, 229, 239, 0.45);
+    margin: 5px;
+    padding: 5px; }
+    body .container p {
+      text-align: center; }
+
+/*# sourceMappingURL=about.css.map */
