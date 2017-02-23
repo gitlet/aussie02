@@ -32,7 +32,26 @@ body {
     background: rgba(228, 229, 239, 0.45);
     margin: 5px;
     padding: 5px; }
-    body .container p {
+    body .container > h4 {
+      background: cornflowerblue;
+      padding: 10px;
+      /* border-radius: 4px; */
+      color: ghostwhite;
       text-align: center; }
+    body .container p {
+      text-align: center;
+      padding: 10px; }
+    body .container .services-list {
+      list-style-type: none; }
+      body .container .services-list li {
+        display: block; }
+        body .container .services-list li h4 {
+          text-align: center;
+          background: rgba(165, 202, 220, 0.72);
+          margin-bottom: 10px;
+          padding: 10px; }
+        body .container .services-list li img {
+          height: auto;
+          width: 100%; }
 
 /*# sourceMappingURL=services.css.map */

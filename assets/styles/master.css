@@ -32,6 +32,9 @@ body {
     text-align: center;
     height: auto;
     width: 85%; }
+    body .banner a {
+      text-decoration: none;
+      color: inherit; }
     body .banner h1 {
       color: #2876b3; }
     body .banner .social {
@@ -73,7 +76,7 @@ body {
     body .content p {
       text-align: center;
       padding: 10px;
-      height: 120px;
+      height: 200px;
       width: auto;
       overflow: scroll; }
   body .menu {
