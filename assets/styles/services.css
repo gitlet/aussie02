@@ -41,17 +41,37 @@ body {
     body .container p {
       text-align: center;
       padding: 10px; }
-    body .container .services-list {
+  body .wrapper {
+    position: relative;
+    top: 80px;
+    margin: 5px; }
+    body .wrapper .services-list {
       list-style-type: none; }
-      body .container .services-list li {
-        display: block; }
-        body .container .services-list li h4 {
-          text-align: center;
-          background: rgba(165, 202, 220, 0.72);
-          margin-bottom: 10px;
-          padding: 10px; }
-        body .container .services-list li img {
-          height: auto;
-          width: 100%; }
+      body .wrapper .services-list li {
+        display: block;
+        margin: 0 0 0px 0;
+        background: rgba(227, 243, 238, 0.68); }
+        body .wrapper .services-list li a {
+          text-decoration: none;
+          color: black; }
+          body .wrapper .services-list li a h4 {
+            text-align: center;
+            background: rgba(113, 245, 160, 0.8);
+            margin-bottom: 10px;
+            padding: 10px; }
+        body .wrapper .services-list li .inner-list {
+          list-style-type: none;
+          height: 300px;
+          width: auto;
+          overflow: scroll;
+          display: none; }
+          body .wrapper .services-list li .inner-list li {
+            display: block; }
+            body .wrapper .services-list li .inner-list li img {
+              height: auto;
+              width: 100%; }
+            body .wrapper .services-list li .inner-list li p {
+              text-align: center;
+              padding: 10px; }
 
 /*# sourceMappingURL=services.css.map */
