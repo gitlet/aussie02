@@ -60,7 +60,9 @@ body {
       body .locator img:hover {
         animation: none; }
   body .social {
-    list-style-type: none; }
+    list-style-type: none;
+    position: relative;
+    top: 20px; }
     body .social li {
       display: block;
       background: #83c2ff;
