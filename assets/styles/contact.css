@@ -59,6 +59,35 @@ body {
       animation: locator 2s infinite; }
       body .locator img:hover {
         animation: none; }
+  body .social {
+    list-style-type: none; }
+    body .social li {
+      display: block;
+      background: #83c2ff;
+      margin: 5px;
+      padding: 40px;
+      height: 48px;
+      width: auto;
+      text-align: center;
+      font-size: 48px;
+      border-radius: 4px; }
+      body .social li a {
+        text-decoration: none;
+        color: ghostwhite; }
+    body .social #gmail {
+      background: rgba(249, 76, 76, 0.87); }
+    body .social #github {
+      background: rgba(20, 23, 27, 0.97); }
+    body .social #twit {
+      background: rgba(52, 114, 175, 0.9); }
+    body .social #fb {
+      background: rgba(26, 58, 88, 0.93); }
+    body .social #insta {
+      background: linear-gradient(to left, #ce52be, #d8bb40); }
+    body .social #behance {
+      background: rgba(44, 116, 197, 0.94); }
+    body .social #dri {
+      background: rgba(185, 47, 146, 0.94); }
 
 @-webkit-keyframes locator {
   0% {
